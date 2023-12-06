@@ -1,10 +1,16 @@
 
 class User:
 	def__init__(self, name:str, surname:str):
+		self.__name = name
+		self.__surname = surname
 
-class user:
-name:str
-surname:str
+
+	def input_userName(self):
+		#ввод данных
+
+	def print_userName(self):
+		print(f"{self.name} {self.surname}")
+
 #создать хэш-таблицу с присвоением каждому user номер телефона или логин
 def create_hach:
     user_hach = {}
